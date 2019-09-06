@@ -1,0 +1,25 @@
+Answers for Recon. Questions:
+	ping <ip>
+	ping -s 9999 -f <ip>
+	hping 3 -1 --icmptype 13 <ip>
+	traceroute <ip>
+	nmap -sS <ip>
+	nmap -sF <ip>
+	nmap -sX <ip>
+	nmap -sV <ip>
+	nmap -O <ip>
+	nmap -sS -p- <ip>
+	nmap --script=vuln <ip>
+	nmap --script=smb-enum-shares <ip>
+	dig <hostname>
+	nslookup <hostname> <DNS server ip>
+
+Answers for Network Config. Questions:
+	ifconfig <interface>
+
+Answers for Network Analysis Questions:
+	netstat -an
+	cat cisco-cfg.txt | grep password | grep -v "service\|username" | wc -l
+	$cisco_CLI>>> permit host <ip>
+
+	
